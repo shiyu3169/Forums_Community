@@ -1,0 +1,7 @@
+1. We have 7 tables. All of them are normalized to 3rd normal form. 2 of them are not currently in use, which are user_friends and user_messages. *Message system is currently in process, so we don't want to delete these.
+2. Primary keys and foreign keys are shown in the class diagram
+3. CRUD and Cascades are managed very well by front end code, stored procedures, functions and triggers, please check it.
+4. Constraints on fields are designed carefully, please check the self-contained file and diagram; for example: unique(email, forumName, etc), notnull(email, threadTitle, etc) and other constraints are used for many fields.
+5. Schema is well designed, including complicated relationships, please check the diagram.
+6. We have some unique indexes, such as forumName, email.
+7. we have 17 procedures, 7 functions and 2 triggers. 

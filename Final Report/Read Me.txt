@@ -1,0 +1,21 @@
+Install instruction
+1. The project is built by Eclipse -- Java EE, so Eclipse -- Java EE is highly recommanded. Link: http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr (latest JDK and JRE are needed to run it, Link: http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+2. Tomcat 8.0 or 7.0 is needed to run the code, please download and set it up. (Link: http://tomcat.apache.org/download-80.cgi)
+
+3. MySQL server (and workbench) are neccessary, please download and set it up (Link: http://dev.mysql.com/downloads/installer/)
+
+3. Extract the project zip file and add the project into Eclipse workspace. 
+
+4. Build path to add external library, mysql-connector-java-5.1.38-bin.jar. (It is prepared in the folder Community/WebContent/WEB-INF/lib)
+
+5. Check the Mysql information in Community/Java Resources/src/edu.neu.ccs.community/DataAccessObject.java file. The default user name and password are "root". 
+
+6. Run the project with Tomcat server. 
+
+7. The home page is defaulted at: localhost:8080/Community/home
+
+8. Have fun with our forums community! 
+
+* Here is the online tutorial video we used to set up everything. If you meet any problem, I hope this is helpful. Also, you can always email us to ask any questions, We will response ASAP.
+Tutorial Video:  https://www.youtube.com/watch?v=LcTi546vj_A  (it only takes you few minuts to set it up, please skip the useless parts of it).
